@@ -17,6 +17,16 @@ _pages is where all the side specific data is
 
 
 
+To deploy, don't run the deploy script do:
+
+bundle exec jekyll serve
+bundle exec jekyll build
+
+mv site_/* .
+
+git add --all
+git push
+
 
 
 
