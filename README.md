@@ -22,9 +22,10 @@ To deploy, don't run the deploy script do:
 bundle exec jekyll serve
 bundle exec jekyll build
 
-mv site_/* .
+mv _site/* .
 
 git add --all
+git commit -m "update"
 git push
 
 
