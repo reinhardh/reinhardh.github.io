@@ -10,10 +10,6 @@ nav: true
 
 ### Preprints
 
-- [Measuring Robustness in Deep Learning Based Compressive Sensing](https://arxiv.org/abs/2102.06103) \
-M. Zalbagi Darestani, Akshay Chaudhari, and R. Heckel, Feb. 2021, [CODE](https://github.com/MLI-lab/Robustness-CS).
-
-
 - [Accelerated MRI with Un-trained Neural Networks](https://arxiv.org/abs/2007.02471) \
 M. Zalbagi Darestani and R. Heckel, Jul. 2020, [CODE](https://github.com/MLI-lab/ConvDecoder).
 
@@ -127,9 +123,21 @@ EURASIP Journal on Bioinformatics and Systems Biology, 2011.
 
 ### Long papers in selective confereneces
 
+- [Measuring robustness in deep learning based compressive sensing](https://arxiv.org/abs/2102.06103) \
+M. Zalbagi Darestani, Akshay Chaudhari, and R. Heckel \
+ICML 2021 (International Conference on Machine Learning) (long talk) [CODE](https://github.com/MLI-lab/Robustness-CS).
+
+- [Data augmentation for deep learning based accelerated MRI reconstruction with limited data]() \
+Z. Fabian, R. Heckel, and M. Soltanolkotabi \
+ICML 2021 (International Conference on Machine Learning).
+
 - [Early Stopping in Deep Networks: Double Descent and How to Eliminate it](https://arxiv.org/abs/2007.10099) \
 R. Heckel and F. F. Yilmaz \
 ICLR 2021 (International Conference on Learning Representations) [CODE](https://github.com/MLI-lab/early_stopping_double_descent).
+
+- [Active Sampling Count Sketch (ASCS) for Online Sparse Estimation of a Trillion Scale Covariance Matrix]() \
+Z. Dai, A. Desai, R. Heckel, A. Shrivastava\
+SIGMOD 2021 (Special Interest Group on Management of Data)
 
 - [Compressive sensing with un-trained neural networks: Gradient descent finds the smoothest approximation](https://arxiv.org/abs/2005.03991) \
 R. Heckel and M. Soltanolkotabi \
