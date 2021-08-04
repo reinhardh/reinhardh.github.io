@@ -19,10 +19,12 @@ _pages is where all the side specific data is
 
 To deploy, don't run the deploy script do:
 
-bundle exec jekyll serve
-bundle exec jekyll build
+change files, e.g., in _pages
 
-mv _site/* .
+bundle exec jekyll serve
+not necessary: (bundle exec jekyll build) 
+
+mv _site/* . (copy via finder)
 
 git add --all
 git commit -m "update"

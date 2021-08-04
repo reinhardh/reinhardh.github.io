@@ -8,6 +8,8 @@ nav: true
 
 
 # 2021
+{% include module.html image_path="../assets/img/2021_aapm.jpeg" title="Runner-up (2nd place) at the Grand Challenge of the American Association of Physicists in Medicine: Deep Learning for Inverse Problems, Sparse-View Computed Tomography Image Reconstruction. 
+*June 2021*" %}
 
 {% include module.html image_path="../assets/img/2020_icml.png" title="Our paper on [measuring robustness in deep learning based compressive sensing](https://arxiv.org/abs/2102.06103) is accepted as long talk (top 3\%) at ICML 2021, and our paper on [data augmentation for signal recovery]() is accepted at ICML as well. Robustness work in the [Stanford news](https://hai.stanford.edu/news/can-ai-create-faster-more-reliable-mri-scans). 
 *May 2021*" %}

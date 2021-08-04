@@ -10,15 +10,14 @@ nav: true
 
 ### Preprints
 
-- [Accelerated MRI with Un-trained Neural Networks](https://arxiv.org/abs/2007.02471) \
-M. Zalbagi Darestani and R. Heckel, Jul. 2020, [CODE](https://github.com/MLI-lab/ConvDecoder).
-
 - [Image recognition from raw labels collected without annotators](https://arxiv.org/abs/1910.09055) \
 F. F. Yilmaz and R. Heckel, Oct. 2019, Feb. 2020, [CODE](https://github.com/MLI-lab/candidate_training).
 
-
-
 ### Journal Papers
+- [Accelerated MRI with Un-trained Neural Networks](https://arxiv.org/abs/2007.02471) \
+M. Zalbagi Darestani and R. Heckel \
+IEEE Transactions on Computational Imaging, 2021. [CODE](https://github.com/MLI-lab/ConvDecoder).
+
 - [A provably convergent scheme for compressive sensing under random generative priors](https://arxiv.org/pdf/1812.04176.pdf ) \
 W. Huang, P. Hand, R. Heckel, V. Voroninski \
 Journal of Fourier Analysis and Applications, 2021.
