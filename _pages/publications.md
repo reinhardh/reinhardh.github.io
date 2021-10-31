@@ -9,9 +9,9 @@ nav: true
 
 
 ### Preprints
+- [Untrained Graph Neural Networks for Denoising](https://arxiv.org/abs/2109.11700) \
+S. Rey, S. Segarra, R. Heckel, A. G. Marques, 2021.
 
-- [Image recognition from raw labels collected without annotators](https://arxiv.org/abs/1910.09055) \
-F. F. Yilmaz and R. Heckel, Oct. 2019, Feb. 2020, [CODE](https://github.com/MLI-lab/candidate_training).
 
 ### Journal Papers
 - [Accelerated MRI with Un-trained Neural Networks](https://arxiv.org/abs/2007.02471) \
@@ -121,6 +121,10 @@ EURASIP Journal on Bioinformatics and Systems Biology, 2011.
 
 
 ### Long papers in selective confereneces
+
+- [Interpolation can hurt robust generalization even when there is no noise](https://arxiv.org/abs/2108.02883) \
+K. Donhauser, A. Tifrea, M. Aerni, R. Heckel, F. Yang \
+NeurIPS 2021 (Conference on Neural Information Processing Systems).
 
 - [Measuring robustness in deep learning based compressive sensing](https://arxiv.org/abs/2102.06103) \
 M. Zalbagi Darestani, Akshay Chaudhari, and R. Heckel \
