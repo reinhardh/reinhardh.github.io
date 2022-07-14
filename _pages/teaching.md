@@ -13,13 +13,29 @@ nav: true
 
 ##### at TUM
 
+- Summer 2022
+	- Seminar on machine learning for proteins
+	- Introduction to machine learning
+	- Deep learning for inverse problems
+
+- Winter 2021/2022
+	- Seminar on the foundations of modern machine learning practice
+	- Machine learning and optimization
+
+- Summer 2021
+	- Deep learning for inverse problems
+	- Introduction to machine learning
+
 - Winter 2020/21
 	- Machine learning and optimization
 	- Seminar on the foundations and robustness of deep learning
+
 - Summer 2020
 	- Introduction to machine learning
 	- Seminar on the foundations of deep learning in imaging science
+
 - Winter 2019/20: Machine learning and optimization
+
 - Summer 2019: Introduction to machine learning 
 
 ##### at Rice University

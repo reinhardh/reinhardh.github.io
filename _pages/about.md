@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Assistant Professor <a href="https://www.tum.de/">TUM</a>, <a href="https://www.rice.edu/">Rice University</a> 
+description: Assistant Professor at <a href="https://www.tum.de/">TUM</a>
 
 
 

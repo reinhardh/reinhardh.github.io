@@ -8,9 +8,6 @@ nav: true
 ---
 
 
-### Preprints
-- [Untrained Graph Neural Networks for Denoising](https://arxiv.org/abs/2109.11700) \
-S. Rey, S. Segarra, R. Heckel, A. G. Marques, 2021.
 
 
 ### Journal Papers
@@ -122,6 +119,14 @@ EURASIP Journal on Bioinformatics and Systems Biology, 2011.
 
 ### Long papers in selective confereneces
 
+- [Test-Time Training Can Close the Natural Distribution Shift Performance Gap in Deep Learning Based Compressed Sensing](https://arxiv.org/abs/2204.07204) \
+M. Zalbagi Darestani, J. Liu, R. Heckel \ 
+ICML 2021 (International Conference on Machine Learning).
+
+- [Provable Continual Learning via Sketched Jacobian Approximations](https://proceedings.mlr.press/v151/heckel22a.html) \
+R. Heckel \ 
+AISTATS 2022 (International Conference on Artificial Intelligence and Statistics).
+
 - [Interpolation can hurt robust generalization even when there is no noise](https://arxiv.org/abs/2108.02883) \
 K. Donhauser, A. Tifrea, M. Aerni, R. Heckel, F. Yang \
 NeurIPS 2021 (Conference on Neural Information Processing Systems).
@@ -177,6 +182,18 @@ SDM 2017 (SIAM International Conference on Data Mining)
 
 
 ### Conference Papers
+
+- [Vision Transformers Enable Fast and Robust Accelerated MRI]() \
+K. Lin and R. Heckel \ 
+Medical Imaging with Deep Learning (MIDL), 2022.
+
+- [Regularization-wise Double Descent: Why it Occurs and how to Eliminate it]() \
+F. F. Yilmaz and R. Heckel \
+ISIT 2022 (IEEE International Symposium on Information Theory).
+
+- [Achieving the Capacity of a DNA Storage Channel with Linear Coding Schemes]() \
+K. Levick, R. Heckel, I. Shomorony \
+CISS 2022 (Annual Conference on Information Sciences and Systems).
 
 - [Capacity of the Erasure Shuffling Channel](https://ieeexplore.ieee.org/abstract/document/9053486) \
 S. Shin, R. Heckel, I. Shomorony \
