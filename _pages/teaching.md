@@ -13,6 +13,10 @@ nav: true
 
 ##### at TUM
 
+- Winter 2022/2023
+	- Seminar on diffusion models
+	- Machine learning and optimization
+
 - Summer 2022
 	- Seminar on machine learning for proteins
 	- Introduction to machine learning

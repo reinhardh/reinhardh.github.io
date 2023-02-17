@@ -8,9 +8,28 @@ nav: true
 ---
 
 
-
+The list below is often outdated. An up-to-date list is at [google scholor](https://scholar.google.com/citations?hl=en&user=ZWV0I7cAAAAJ&view_op=list_works&sortby=pubdate)
 
 ### Journal Papers
+
+
+- [Theoretical perspectives on deep learning methods in inverse problems](https://arxiv.org/abs/2206.14373) \
+J. Scarlett, R. Heckel, MRD Rodrigues, P. Hand, Y. C. Eldar, A.G. Marques \
+IEEE Journal on Selected Areas in Information Theory, 2023.
+
+- [Untrained Graph Neural Networks for Denoising](https://ieeexplore.ieee.org/abstract/document/9959969) \
+S. Rey, S. Segarra, R. Heckel, A.G. Marques \
+IEEE Transactions on Signal Processing, 2022.
+
+- [Emerging approaches to DNA data storage: Challenges and prospects](https://pubs.acs.org/doi/10.1021/acsnano.2c06748) \
+A. Doricchi, C. Platnich, A. Gimpel, F. Horn, M. Earle, G. Lanzavecchia, A. Cortajarena, L. Liz-Marzán, Na Liu, R. Heckel, R. Grass, R. Krahne, U. Keyser, D. Garoli \
+ACS Nano, 2022.
+
+- [Information decay and enzymatic information recovery for DNA data storage](https://www.nature.com/articles/s42003-022-04062-9) \
+L. Meiser, A. Gimpel, T. Deshpande, G. Libort, W. Chen, R. Heckel, B. Nguyen, K. Strauss, W. Stark, R. Grass \
+Nature Communications Biology, 2022.
+
+
 - [Accelerated MRI with Un-trained Neural Networks](https://arxiv.org/abs/2007.02471) \
 M. Zalbagi Darestani and R. Heckel \
 IEEE Transactions on Computational Imaging, 2021. [CODE](https://github.com/MLI-lab/ConvDecoder).
@@ -118,6 +137,10 @@ EURASIP Journal on Bioinformatics and Systems Biology, 2011.
 
 
 ### Long papers in selective confereneces
+
+- [Scaling laws for deep learning based image reconstruction](https://arxiv.org/abs/2209.13435) \ 
+T. Klug and R. Heckel \
+ICLR 2023 (International Conference on Learning Representations)
 
 - [Test-Time Training Can Close the Natural Distribution Shift Performance Gap in Deep Learning Based Compressed Sensing](https://arxiv.org/abs/2204.07204) \
 M. Zalbagi Darestani, J. Liu, R. Heckel \ 
