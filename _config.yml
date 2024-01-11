@@ -8,7 +8,7 @@ middle_name:
 last_name: Heckel
 email: reinhard.heckel@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:" 
-  Reinhard Heckel is a Rudolf Moessbauer assistant professor in ECE at the Technical University of Munich, and an adjunct assistant professor in ECE at Rice University.
+  Reinhard Heckel is an Associate Professor for Machine Learning at the Technical University of Munich, and an adjunct faculty at Rice University.
 
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -56,7 +56,7 @@ work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
-contact_note: © Copyright 2021 Reinhard Heckel. Powered by Jekyll (al-folio) & github pages. # You can even add a little note about which of these is the best way to reach you.
+contact_note: © Copyright 2023 Reinhard Heckel. Powered by Jekyll (al-folio) & github pages. # You can even add a little note about which of these is the best way to reach you.
 
 google_analytics: UA-70684161-1 # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID

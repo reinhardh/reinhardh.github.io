@@ -1,0 +1,4 @@
+---
+BUNDLE_BUILD__NOKOGIRI: "--with-xml2-include=/usr/local/opt/libxml2/include/libxml2 --with-xslt-include=/usr/local/opt/libxslt/include/libxslt"
+BUNDLE_PATH: "vendor/bundle"
+BUNDLE_BUILD__FFI: "--use-system-libraries"

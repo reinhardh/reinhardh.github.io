@@ -14,8 +14,7 @@ _includes/module.html is what I wrote for the news
 _layouts/page.html
 _includes/module.html
 
-_pages is where all the side specific data is
-
+_pages is where all the side specific data is, add or remove a page there if needed
 
 
 
@@ -32,6 +31,12 @@ git add --all
 git commit -m "update"
 git push
 
+
+ISSUES fixed by:
+
+bundle config build.nokogiri --use-system-libraries
+bundle config build.nokogiri --with-xml2-include="$(brew --prefix libxml2)/include/libxml2" --with-xslt-include="$(brew --prefix libxslt)/include/libxslt"
+bundle install
 
 
 

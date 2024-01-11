@@ -1,0 +1,19 @@
+source 'https://rubygems.org'
+
+
+# This is the only gem you need to include to mimic the GitHub Pages environment
+gem 'github-pages', group: :jekyll_plugins
+
+
+# If you want to develop locally, it's a good idea to include Jekyll (matching the GitHub Pages version)
+# gem 'jekyll', '~> 3.9'
+
+# If you need additional Jekyll plugins, specify them here
+# gem 'jekyll-feed', '~> 0.12'
+
+group :jekyll_plugins do
+  # Add any Jekyll plugins here
+  # gem 'jekyll-sitemap'
+  # gem 'jekyll-seo-tag'
+end
+
