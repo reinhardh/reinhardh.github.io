@@ -24,6 +24,8 @@ change files, e.g., in _pages
 
 bundle exec jekyll serve
 not necessary: (bundle exec jekyll build) 
+index.html should be deleted first, so that it updates
+
 
 mv _site/* . (copy via finder)
 

@@ -27,6 +27,11 @@ My work is centered on machine learning, artificial intelligence, and informatio
 
 Please see [my google scholar profile](https://scholar.google.com/citations?hl=en&user=ZWV0I7cAAAAJ&view_op=list_works&sortby=pubdate) for an up-to-date list. 
 
+
+#### Book
+
+[Deep Learning for Computational Imaging](https://github.com/MLI-lab/deep_inverse_book.github.io/), to be published by Oxford University Press, [draft available as pdf](https://github.com/MLI-lab/deep_inverse_book.github.io/blob/main/assets/deep_inverse_reader.pdf)
+
 #### Selected talks and publications in popular science
 
 [Talk at DLD on Seeing the World with AI](https://www.youtube.com/watch?v=sl40mRJ4_1Y)
