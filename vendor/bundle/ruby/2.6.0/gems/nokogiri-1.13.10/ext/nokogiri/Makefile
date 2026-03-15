@@ -12,9 +12,9 @@ NULLCMD = :
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0
+topdir = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0
 hdrdir = $(topdir)
-arch_hdrdir = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin23
+arch_hdrdir = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin24
 PATH_SEPARATOR = :
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
 prefix = $(DESTDIR)/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr
@@ -31,8 +31,8 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20240804-77407-1qpxa69
-sitelibdir = $(DESTDIR)./.gem.20240804-77407-1qpxa69
+sitearchdir = $(DESTDIR)./.gem.20250213-2967-17xfo5a
+sitelibdir = $(DESTDIR)./.gem.20250213-2967-17xfo5a
 sitedir = $(DESTDIR)/Library/Ruby/Site
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
@@ -51,7 +51,7 @@ htmldir = $(docdir)
 infodir = $(DESTDIR)/usr/share/info
 docdir = $(datarootdir)/doc/$(PACKAGE)
 oldincludedir = $(DESTDIR)/usr/include
-includedir = $(DESTDIR)/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk$(prefix)/include
+includedir = $(DESTDIR)/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk$(prefix)/include
 runstatedir = $(localstatedir)/run
 localstatedir = $(prefix)/var
 sharedstatedir = $(prefix)/com
@@ -84,13 +84,13 @@ debugflags = -g
 warnflags = 
 cppflags = 
 CCDLFLAGS = 
-CFLAGS   = $(CCDLFLAGS)  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -DUSE_FFI_CLOSURE_ALLOC -std=c99 -Wno-declaration-after-statement -g -Winline -Wmissing-noreturn $(ARCH_FLAG)
+CFLAGS   = $(CCDLFLAGS)  -g -Os -pipe -DHAVE_GCC_ATOMIC_BUILTINS -fno-typed-memory-operations -fno-typed-cxx-new-delete -DUSE_FFI_CLOSURE_ALLOC -std=c99 -Wno-declaration-after-statement -g -Winline -Wmissing-noreturn $(ARCH_FLAG)
 INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir)
 DEFS     = 
-CPPFLAGS = -DHAVE_ICONV_H -DHAVE_XMLPARSEDOC -DHAVE_XSLTPARSESTYLESHEETDOC -DHAVE_EXSLTFUNCREGISTER -DHAVE_GUMBO_PARSE_WITH_OPTIONS -DHAVE_XMLHASFEATURE -DHAVE_XMLFIRSTELEMENTCHILD -DHAVE_XMLRELAXNGSETPARSERSTRUCTUREDERRORS -DHAVE_XMLRELAXNGSETVALIDSTRUCTUREDERRORS -DHAVE_XMLSCHEMASETVALIDSTRUCTUREDERRORS -DHAVE_XMLSCHEMASETPARSERSTRUCTUREDERRORS -DHAVE_VASPRINTF -I/Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin23/libxml2/2.10.3/include/libxml2 -I/Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin23/libxslt/1.1.37/include -I/Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin23/libxml2/2.10.3/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT $(DEFS) $(cppflags) -DNOKOGIRI_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATCHES="\"0001-Remove-script-macro-support.patch 0002-Update-entities-to-remove-handling-of-ssi.patch 0003-libxml2.la-is-in-top_builddir.patch 0005-avoid-isnan-isinf.patch 0009-allow-wildcard-namespaces.patch\"" -DNOKOGIRI_LIBXSLT_PATCHES="\"0001-update-automake-files-for-arm64.patch\"" -I/Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ext/nokogiri/ports/universal.arm64e-darwin23/libgumbo/1.0.0-nokogiri/include -DNOKOGIRI_OTHER_LIBRARY_VERSIONS="\"libgumbo:1.0.0-nokogiri\""
+CPPFLAGS = -DHAVE_ICONV_H -DHAVE_XMLPARSEDOC -DHAVE_XSLTPARSESTYLESHEETDOC -DHAVE_EXSLTFUNCREGISTER -DHAVE_GUMBO_PARSE_WITH_OPTIONS -DHAVE_XMLHASFEATURE -DHAVE_XMLFIRSTELEMENTCHILD -DHAVE_XMLRELAXNGSETPARSERSTRUCTUREDERRORS -DHAVE_XMLRELAXNGSETVALIDSTRUCTUREDERRORS -DHAVE_XMLSCHEMASETVALIDSTRUCTUREDERRORS -DHAVE_XMLSCHEMASETPARSERSTRUCTUREDERRORS -DHAVE_VASPRINTF -I/Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin24/libxml2/2.10.3/include/libxml2 -I/Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin24/libxslt/1.1.37/include -I/Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin24/libxml2/2.10.3/include/libxml2 -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT $(DEFS) $(cppflags) -DNOKOGIRI_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATCHES="\"0001-Remove-script-macro-support.patch 0002-Update-entities-to-remove-handling-of-ssi.patch 0003-libxml2.la-is-in-top_builddir.patch 0005-avoid-isnan-isinf.patch 0009-allow-wildcard-namespaces.patch\"" -DNOKOGIRI_LIBXSLT_PATCHES="\"0001-update-automake-files-for-arm64.patch\"" -I/Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ext/nokogiri/ports/universal.arm64e-darwin24/libgumbo/1.0.0-nokogiri/include -DNOKOGIRI_OTHER_LIBRARY_VERSIONS="\"libgumbo:1.0.0-nokogiri\""
 CXXFLAGS = $(CCDLFLAGS)  -g -Os -pipe  $(ARCH_FLAG)
-ldflags  = -L. -L/AppleInternal/Library/BuildRoots/0032d1ee-80fd-11ee-8227-6aecfccc70fe/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.Internal.sdk/usr/local/lib
-dldflags = $(ARCH_FLAG)             -undefined dynamic_lookup -multiply_defined suppress 
+ldflags  = -L. -L/AppleInternal/Library/BuildRoots/4b66fb3c-7dd0-11ef-b4fb-4a83e32a47e1/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.Internal.sdk/usr/local/lib
+dldflags = $(ARCH_FLAG)             
 ARCH_FLAG = 
 DLDFLAGS = $(ldflags) $(dldflags) $(ARCH_FLAG)
 LDSHARED = $(CC) -dynamic -bundle
@@ -105,7 +105,7 @@ RUBY_VERSION_NAME = $(RUBY_BASE_NAME)-$(ruby_version)
 RUBYW_BASE_NAME = rubyw
 RUBY_BASE_NAME = ruby
 
-arch = universal-darwin23
+arch = universal-darwin24
 sitearch = $(arch)
 ruby_version = 2.6.0
 ruby = $(bindir)/$(RUBY_BASE_NAME)
@@ -125,8 +125,8 @@ TOUCH = exit >
 #### End of system configuration section. ####
 
 preload = 
-libpath = . $(libdir) /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin23/libxml2/2.10.3/lib /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin23/libxslt/1.1.37/lib /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ext/nokogiri/ports/universal.arm64e-darwin23/libgumbo/1.0.0-nokogiri/lib
-LIBPATH =  -L. -L$(libdir) -L/Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin23/libxml2/2.10.3/lib -L/Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin23/libxslt/1.1.37/lib -L/Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ext/nokogiri/ports/universal.arm64e-darwin23/libgumbo/1.0.0-nokogiri/lib
+libpath = . $(libdir) /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin24/libxml2/2.10.3/lib /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin24/libxslt/1.1.37/lib /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ext/nokogiri/ports/universal.arm64e-darwin24/libgumbo/1.0.0-nokogiri/lib
+LIBPATH =  -L. -L$(libdir) -L/Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin24/libxml2/2.10.3/lib -L/Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin24/libxslt/1.1.37/lib -L/Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ext/nokogiri/ports/universal.arm64e-darwin24/libgumbo/1.0.0-nokogiri/lib
 DEFFILE = 
 
 CLEANFILES = mkmf.log
@@ -137,7 +137,7 @@ extout =
 extout_prefix = 
 target_prefix = /nokogiri
 LOCAL_LIBS = 
-LIBS = $(LIBRUBYARG_SHARED) /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin23/libxslt/1.1.37/lib/libexslt.a -liconv -lpthread -lz /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin23/libxml2/2.10.3/lib/libxml2.a /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin23/libxslt/1.1.37/lib/libxslt.a -liconv -lpthread -lz /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin23/libxml2/2.10.3/lib/libxml2.a -llzma /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ext/nokogiri/ports/universal.arm64e-darwin23/libgumbo/1.0.0-nokogiri/lib/libgumbo.a  
+LIBS = $(LIBRUBYARG_SHARED) /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin24/libxslt/1.1.37/lib/libexslt.a -liconv -lpthread -lz /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin24/libxml2/2.10.3/lib/libxml2.a /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin24/libxslt/1.1.37/lib/libxslt.a -liconv -lpthread -lz /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ports/universal.arm64e-darwin24/libxml2/2.10.3/lib/libxml2.a -llzma /Users/reinhardheckel/Desktop/reinhardh.github.io/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10/ext/nokogiri/ports/universal.arm64e-darwin24/libgumbo/1.0.0-nokogiri/lib/libgumbo.a  
 ORIG_SRCS = gumbo.c html4_document.c html4_element_description.c html4_entity_lookup.c html4_sax_parser_context.c html4_sax_push_parser.c libxml2_backwards_compat.c nokogiri.c test_global_handlers.c xml_attr.c xml_attribute_decl.c xml_cdata.c xml_comment.c xml_document.c xml_document_fragment.c xml_dtd.c xml_element_content.c xml_element_decl.c xml_encoding_handler.c xml_entity_decl.c xml_entity_reference.c xml_namespace.c xml_node.c xml_node_set.c xml_processing_instruction.c xml_reader.c xml_relax_ng.c xml_sax_parser.c xml_sax_parser_context.c xml_sax_push_parser.c xml_schema.c xml_syntax_error.c xml_text.c xml_xpath_context.c xslt_stylesheet.c
 SRCS = $(ORIG_SRCS) 
 OBJS = gumbo.o html4_document.o html4_element_description.o html4_entity_lookup.o html4_sax_parser_context.o html4_sax_push_parser.o libxml2_backwards_compat.o nokogiri.o test_global_handlers.o xml_attr.o xml_attribute_decl.o xml_cdata.o xml_comment.o xml_document.o xml_document_fragment.o xml_dtd.o xml_element_content.o xml_element_decl.o xml_encoding_handler.o xml_entity_decl.o xml_entity_reference.o xml_namespace.o xml_node.o xml_node_set.o xml_processing_instruction.o xml_reader.o xml_relax_ng.o xml_sax_parser.o xml_sax_parser_context.o xml_sax_push_parser.o xml_schema.o xml_syntax_error.o xml_text.o xml_xpath_context.o xslt_stylesheet.o
